@@ -1,0 +1,10 @@
+You sent: $( @vars(:foo) )
+<br/>
+<% if @vars(:foo) == "secret-code" %>
+  Opening...
+<% else %>
+  Locked!
+<% end %>
+
+<br/><br/>
+<a href="/demos">Back to form</a>
